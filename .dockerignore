@@ -1,0 +1,16 @@
+
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+build
+dist
+*.exe
+*.zip
