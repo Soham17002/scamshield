@@ -66,3 +66,41 @@ SCAMSHIELD/
 - Data is local in `scamshield.db`. Delete records from Scan History or Settings.
 - The current detectors use transparent rules, not a trained machine-learning classifier.
 - Do not use this as the sole basis for financial, legal or incident-response decisions.
+## 🐳 Run SCAMSHIELD with Docker
+
+SCAMSHIELD is available as a Docker image through GitHub Container Registry.
+
+### Requirements
+- Docker Desktop installed and running.
+
+### Download the image
+
+```bash
+docker pull ghcr.io/soham17002/scamshield:1.0.0
+```
+
+### Run SCAMSHIELD
+
+```bash
+docker run --rm -p 8501:8501 ghcr.io/soham17002/scamshield:1.0.0
+```
+
+### Open the application
+
+Visit: http://localhost:8501
+
+### Stop the application
+
+Press `Ctrl + C` in the terminal.
+
+### Docker image
+
+`ghcr.io/soham17002/scamshield:1.0.0`
+
+### Live Demo
+
+https://scamshield-soham.streamlit.app/
+
+### Windows Download
+
+Visit the [GitHub Releases](https://github.com/Soham17002/scamshield/releases) page to download the Windows package.
